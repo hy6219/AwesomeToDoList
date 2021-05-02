@@ -1,6 +1,6 @@
 # 바닐라 JS를 이용한 ToDoList 프로젝트
 -Nomad Coders 2021 Momontom Project-
-!(https://github.com/hy6219/AwesomeToDoList/blob/main/ToDoList_VanillaJS_v0.1.gif?raw=true)
+@(https://github.com/hy6219/AwesomeToDoList/blob/main/ToDoList_VanillaJS_v0.1.gif?raw=true)
 ## 1. localStorage
 
 - localStorage를 이용하여 geo 정보, 사용자 정보, 할 일 정보를 저장하고 추출할 수
