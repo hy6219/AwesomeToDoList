@@ -84,7 +84,7 @@ function handleGeoErr(err){
 }
 function getWeather(lat,lon){
   // console.log(lat,lon);
-    fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_key}&units=metric`)
+    fetch(`api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_key}&units=metric`)
     .then(function(response){
         return response.json();
     })
