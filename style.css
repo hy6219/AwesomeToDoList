@@ -1,0 +1,57 @@
+body{
+    margin:0;
+}
+.header
+{
+    position:absolute;
+    float:left;
+    margin-left:30%;
+}
+.js-weather{
+    float:right;
+    margin:10px;
+}
+.user{
+    position:relative;
+    top : 100px;
+    left : 28%;
+}
+.toDo{
+    position:relative;
+    top:120px;
+    left:28%;
+}
+input{
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+    border:none;
+    border-bottom:1px solid black;
+    background:white;
+    opacity: 0.5;
+}
+input:hover{
+    border:5px solid orangered;
+    border-radius: 10px;
+}
+.clearfix::after{
+    content:"";
+    clear:both;
+    display:block;
+}
+.js-clock{
+    width:300px;
+    text-align: center;
+    margin : 50px 40px;
+    font-weight: bold;
+}
+.js-clock:hover{
+    color:orangered;
+    border:3px solid whitesmoke;
+    border-radius:20px;
+    transform: scale(1.1);
+    transition:cubic-bezier(.17,.67,.83,.67) 3s;
+}
+.pending{
+    margin-bottom:100px;
+}

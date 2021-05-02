@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nice To Do List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header clearfix"><h1>Nice To Do List</h1></header>
+    <seciton>
+        <article>
+            <div class="js-weather clearfix">
+              
+            </div>
+            <div class="user">
+                <form class="js-userForm">
+                    <input type="text" name="name"placeholder="what is your name?" id="name">
+                </form>
+                <h3 class="js-name"></h3>
+            </div>
+            <div class="toDo">
+                <form class="js-toDo">
+                    <input type="text" name="toDo" placeholder="write your to do" id="toDo">
+                </form>
+                <div class="js-clock">
+                    
+                </div>
+                <div class="pending">
+                    <h3>PENDING</h3>
+                    <ul class="js-pending"></ul>
+                </div>
+                <div class="finished">
+                    <h3>Finished</h3>
+                    <ul class="js-fin"></ul>
+                </div>
+            </div>
+        </article>
+    </seciton>
+    <script src="./toDo.js"></script>
+</body>
+</html>
