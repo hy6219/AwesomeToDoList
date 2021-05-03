@@ -23,4 +23,4 @@ unit=metrix 추가)
 
 ➡️   <a href="http://hy6219.github.io/AwesomeToDoList/index.html">지금 보러 가기</a>
 
-⚠️ 프로토콜 관련 문제로 인하여 날씨 기능이 일부 기기에서 작동하지 않을 수 있습니다
+⚠️ API 키 노출로 인한 보안 우려로 인하여, JS 코드 내 API KEY 부분을 삭제하게되었습니다. 죄송합니다
