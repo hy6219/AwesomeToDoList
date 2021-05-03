@@ -6,7 +6,7 @@ const clock = document.querySelector(".js-clock");
 const prtName = document.querySelector(".js-name");
 const weather = document.querySelector(".js-weather");
 const weatherIcon = document.createElement("img");
-const API_key="9c679461b7e83bc4574e6e2e8f361c31";
+const API_key="(For security, now I have to delete this part..api key..)";
 const colors =["rgb(0, 206, 201)", "rgb(162, 155, 254)","rgb(253, 121, 168)","rgb(116, 185, 255)","rgb(85, 239, 196)"];
 
 const PEN = document.querySelector(".pending").querySelector("ul");
